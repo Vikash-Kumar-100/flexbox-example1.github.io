@@ -1,0 +1,189 @@
+      @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: black;
+        font-size: 28px;
+        font-weight: bolder;
+        margin: 15px 0; 
+        font-family: sans-serif;    
+      }
+      .attribution a {
+        font-weight: normal; 
+        margin:10px;
+        color: white;
+      }
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .body{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(./images/bg-pattern-bottom-desktop.svg);
+        background-size: 100% 100%;
+      }
+      .box1{
+       /*background-color: gray;*/
+       margin: 5vh;
+       width: 80%;
+       height: 40vh;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+      }
+      .box1_child1_content{
+        width: 50%;
+        padding: 10px 40px;
+        height: 38vh;
+        /*background-color: tomato;*/
+      }
+      .box1_child1_content h1{
+        font-family: sans-serif;
+        font-size: 38px;
+        color:mediumvioletred;  
+        /*font-weight: 700;*/
+      }
+      .box1_child1_content p{
+        font-family: 'Recursive',cursive,sans-serif;
+        margin: 10px 0;
+        /*font-size: 24px;*/
+        color: rgb(100,100,100);
+        /*font-weight: bolder;*/
+      }
+      .box1_child2_content{
+        width: 50%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*justify-content: space-between;*/
+        /*background-color: yellow;*/
+      }
+      .rating_bar{
+        width: 70%;
+        height: auto;
+        margin: 10px 0;
+        background-color: hsl(300, 24%, 96%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 8px;
+        padding: 15px 0 15px 30px;
+      }
+      .rating_bar p{
+        margin: 0 10px;
+        /*font-family: cursive;*/
+        font-size: 14px;
+        font-weight: bold;
+      }
+      #rating_bar1{
+        align-self: start;
+      }
+      #rating_bar2{
+        align-self: center;
+      }
+      #rating_bar3{
+        align-self: flex-end;
+      }
+      .star{
+        width: 15px;
+        height: 15px;
+        background-image: url(./images/icon-star.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .box2{
+        /*background-color: springgreen;*/
+        margin: 5vh;
+        width: 80%;
+        height: 40vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .card{
+        width: 32%;
+        height: auto;
+        /*background-color: skyblue;*/
+        padding: 20px;
+        border-radius: 15px;
+        background-color:#0008;
+      }
+      #card1{
+        align-self: start;
+      }
+      #card2{
+        align-self: center;
+      }
+      #card3{
+        align-self: flex-end;
+      }
+      .profile_box{
+        height: auto;
+        width: auto;
+        /*background-color: red;*/
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+      }
+      .img_box{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        /*background-color: lime;*/
+      }
+      .img{
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 50%; 
+      }
+      #card1 .img{
+        background: url(./images/image-colton.jpg);
+        background-size: 100% 100%;
+      }
+
+      #card2 .img{
+        background: url(./images/image-irene.jpg);
+        background-size: 100% 100%;
+      }
+
+      #card3 .img{
+        background: url(./images/image-anne.jpg);
+        background-size: 100% 100%;
+      }
+
+      .intro{
+        display: flex;
+        flex-direction: column;
+        font-family: monospace;
+        /*line-height: 20px;*/
+      }
+      .intro h2{
+        height: auto;
+        color: white;
+      }
+      .intro span{
+        font-family: cursive; 
+        color: hsl(303, 10%, 53%);
+
+      }
+      #card1 span{
+        color:#fff9;
+      }
+      .card p{
+        font-family:sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+        line-height: 20px;
+        color: hsl(300, 24%, 96%);
+      
